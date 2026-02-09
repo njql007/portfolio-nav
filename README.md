@@ -1,79 +1,95 @@
-# 我的项目导航 | Project Portfolio Navigation
+# Portfolio Navigation
 
-这是一个精美的个人项目导航页面，使用 React + TypeScript + Vite + Tailwind CSS 构建。
+A modern personal project portfolio with glassmorphism design, built with React 19, TypeScript, Vite, and Tailwind CSS.
 
-## ✨ 特性
+![Portfolio Preview](./ui-overview.jpg)
 
-- 🎨 简洁现代的设计
-- 🌍 中英文双语切换
-- 🚀 快速响应式布局
-- 📱 移动端适配
-- 🤖 自动 CI/CD 部署到 Firebase
+## Features
 
-## 🛠️ 技术栈
+- 🎨 **Glassmorphism UI** - Frosted glass effects with dynamic gradient backgrounds
+- ✨ **Smooth Animations** - Floating, fade-in, and scale animations
+- 🌍 **Bilingual Support** - Seamless Chinese/English switching
+- 📱 **Responsive Design** - Perfect for desktop and mobile
+- ♿ **Accessibility** - ESC key support, focus management, keyboard navigation
+- 🚀 **Auto Deployment** - GitHub Actions + Firebase Hosting
 
-- **React 19** - 用户界面框架
-- **TypeScript** - 类型安全
-- **Vite** - 快速的构建工具
-- **Tailwind CSS** - 原子化 CSS 框架
+## Tech Stack
 
-## 📦 安装
+- **React 19.2.3** - Latest UI framework
+- **TypeScript 5.9.3** - Type safety
+- **Vite 7.3.1** - Ultra-fast build tool
+- **Tailwind CSS 4.1.18** - Utility-first CSS framework
+
+## Getting Started
+
+### Installation
 
 ```bash
 npm install
 ```
 
-## 🚀 运行
+### Development
 
 ```bash
 npm run dev
 ```
 
-## 🏗️ 构建
+Visit http://localhost:5173 to see the application.
+
+### Build
 
 ```bash
 npm run build
 ```
 
-## 🔄 自动部署
+### Preview
 
-当代码推送到 `main` 分支时，GitHub Actions 会自动：
+```bash
+npm run preview
+```
 
-1. 构建项目
-2. 部署到 Firebase Hosting
+## Deployment
 
-访问 https://portfolio-nav.web.app 查看最新版本。
+The project automatically deploys to Firebase Hosting via GitHub Actions when pushing to the `main` branch.
 
-## 👥 展示项目
+🌐 **Live Demo**: https://portfolio-nav.web.app
 
-### Moyu Reader 摸鱼神器
+## Design Highlights
 
-隐秘式RSS阅读器，专为"摸鱼"场景设计的现代化资讯获取工具。
+- Glassmorphism cards with blur effects
+- Dynamic gradient backgrounds with animated light orbs
+- Subtle grid texture overlay
+- Hover interactions with glow effects
+- Custom keyframe animations
+- Responsive layout for all screen sizes
 
-- React 19 + TypeScript
-- AI智能翻译
-- 游戏化系统
-- 老板模式
+## Projects
 
-### Pixel Verse Social
+### 📚 Moyu Reader
 
-2D像素艺术虚拟社交空间，融合修仙文化的多人在线互动平台。
+A stealthy RSS reader designed for discreet news reading at work with an IDE-style interface.
 
-- React + Socket.io
-- 修仙系统
-- 实时多人互动
-- AI绘图功能
+**Tech Stack**: React 19, TypeScript, Vite, Tailwind CSS, Google Gemini AI, Firebase
 
-## 📄 许可证
+**Features**: AI translation, gamification system, boss mode, multi-source aggregation
+
+🔗 [Visit Website](https://reader.momoyu.lol)
+
+### 🎮 Pixel Verse Social
+
+A multiplayer pixel art social platform with synchronized YouTube video watching and real-time chat.
+
+**Tech Stack**: React 19, Socket.io, Express, Node.js 22, Google Gemini AI, GCP Cloud Run
+
+**Features**: Video sync, live chat, pixel avatars, virtual space
+
+🔗 [Visit Website](https://pixel-verse.momoyu.lol)
+
+## License
 
 ISC
 
 ---
 
 Built with ❤️ using React + TypeScript + Tailwind CSS
-
-## 🌐 在线访问
-
-- **Firebase Hosting**: https://portfolio-nav.web.app
-- **GitHub 仓库**: https://github.com/njql007/portfolio-nav
 
