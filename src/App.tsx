@@ -85,7 +85,7 @@ Key Features:
       zh: `Pixel Verse Social 是一个创新的多人在线像素艺术社交平台，支持多人同步观看视频、实时聊天、虚拟世界探索和互动。在这个2D像素空间中，您可以与其他用户一起观看视频、分享音乐、即时交流，打造独特的虚拟社交体验。
 
 核心特性：
-🎬 视频同步 - 支持 YouTube 和 Bilibili 视频多人实时同步观看，所有人进度一致
+🎬 视频同步 - 支持 YouTube 视频多人实时同步观看，所有人进度一致
 💬 实时聊天 - 内置聊天室，边看视频边交流讨论
 🎨 AI 世界生成 - 使用 Google Gemini 生成游戏背景，支持多种艺术风格
 🎵 音乐播放器 - 支持视频播放和播放队列管理，内置环境音效库
@@ -94,7 +94,7 @@ Key Features:
       en: `Pixel Verse Social is an innovative multiplayer online pixel art social platform supporting synchronized video watching, real-time chat, virtual world exploration, and interaction. In this 2D pixel space, watch videos together with others, share music, chat in real-time, and create a unique virtual social experience.
 
 Key Features:
-🎬 Video Sync - Supports YouTube and Bilibili video synchronized watching for everyone
+🎬 Video Sync - Supports YouTube video synchronized watching for everyone
 💬 Live Chat - Built-in chat room for discussions while watching videos
 🎨 AI World Generation - Generate game backgrounds using Google Gemini, supports multiple art styles
 🎵 Music Player - Video playback with playlist management and ambient sound effects library
