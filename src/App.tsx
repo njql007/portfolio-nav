@@ -46,24 +46,24 @@ const projects: Project[] = [
       en: 'A stealthy RSS reader designed for discreet news reading at work',
     },
     longDescription: {
-      zh: `Moyu Reader 是一款创新的RSS阅读器，采用暗色IDE风格界面设计，让您在办公时也能优雅地获取技术资讯。支持中英文双语阅读，集成AI智能翻译，具备完整的游戏化系统——阅读升级、成就解锁、经验值获取。
+      zh: `Moyu Reader 是一款专为技术爱好者打造的隐秘式RSS阅读器，采用暗色IDE风格界面设计，让您在办公时也能优雅地获取技术资讯而不会被察觉。
 
 核心特性：
-🎯 老板模式 - 一键切换（按B键），瞬间变身代码编辑器
-🌐 多源聚合 - 汇集IT之家、少数派、Hacker News等12+热门技术资讯源
-🤖 AI翻译 - 基于Google Gemini的渐进式翻译，英文内容无缝阅读
+🎯 老板模式 - 一键切换（按B键），瞬间变身代码编辑器，完美融入开发环境
+🌐 多源聚合 - 汇集CnBeta、IT之家、少数派、Hacker News、V2EX等12+热门技术资讯源
+🤖 AI翻译 - 基于Google Gemini的智能翻译，英文内容无缝阅读
 📖 智能阅读 - 自动提取文章正文，屏蔽广告和干扰元素
-🎮 游戏化 - 阅读获得XP经验值，升级解锁成就
-⌨️ 快捷键 - 完整的键盘导航支持，提升阅读效率`,
-      en: `Moyu Reader is an innovative RSS reader with a dark IDE-style interface, allowing you to stay updated with tech news discreetly at work. It supports bilingual reading, AI-powered translation, and a complete gamification system with leveling, achievements, and XP.
+🎮 游戏化 - 阅读获得XP经验值，升级解锁称号，让阅读变得更有趣
+📱 响应式设计 - 完美支持桌面和移动设备`,
+      en: `Moyu Reader is a stealthy, feature-rich RSS reader designed for tech enthusiasts who want to stay updated with tech news without drawing attention. Built with a dark IDE-style interface that blends seamlessly into developer environments.
 
 Key Features:
-🎯 Boss Mode - One-click toggle (press B) to transform into a code editor
-🌐 Multi-Source Aggregation - 12+ popular tech sources including IT之家, 少数派, Hacker News
-🤖 AI Translation - Progressive translation powered by Google Gemini for seamless English reading
+🎯 Boss Mode - One-click toggle (press B) to transform into a code editor, perfect for discreet reading
+🌐 Multi-Source Aggregation - 12+ popular tech sources including CnBeta, IT之家, 少数派, Hacker News, V2EX
+🤖 AI Translation - Intelligent translation powered by Google Gemini for seamless English reading
 📖 Smart Reading - Auto-extract article content, block ads and distractions
-🎮 Gamification - Earn XP from reading, level up and unlock achievements
-⌨️ Keyboard Shortcuts - Full keyboard navigation support for efficiency`,
+🎮 Gamification - Earn XP from reading, level up and unlock titles, making reading more engaging
+📱 Responsive Design - Works perfectly on desktop and mobile devices`,
     },
     image: '📚',
     tags: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'Google Gemini AI', 'Firebase'],
@@ -82,24 +82,24 @@ Key Features:
       en: 'A multiplayer pixel art social platform with synchronized YouTube video watching and real-time chat',
     },
     longDescription: {
-      zh: `Pixel Verse Social 是一个多人在线像素艺术社交平台，核心功能是支持多人同步观看 YouTube 视频并进行实时聊天。在这个2D像素空间中，您可以与其他用户一起观看视频、分享音乐、即时交流，打造独特的虚拟社交体验。
+      zh: `Pixel Verse Social 是一个创新的多人在线像素艺术社交平台，支持多人同步观看视频、实时聊天、虚拟世界探索和互动。在这个2D像素空间中，您可以与其他用户一起观看视频、分享音乐、即时交流，打造独特的虚拟社交体验。
 
 核心特性：
-🎬 视频同步 - 多人实时同步观看 YouTube 视频，所有人进度一致
+🎬 视频同步 - 支持 YouTube 和 Bilibili 视频多人实时同步观看，所有人进度一致
 💬 实时聊天 - 内置聊天室，边看视频边交流讨论
-👤 像素化身 - 可自定义的像素头像，表达个性
-🎵 音乐分享 - 分享 YouTube 音乐，与好友同步聆听
-🎨 虚拟空间 - 2D像素艺术场景，沉浸式社交体验
-👥 多人互动 - WebSocket 实时通信，流畅的多人在线互动`,
-      en: `Pixel Verse Social is a multiplayer online pixel art social platform focused on synchronized YouTube video watching and real-time chat. In this 2D pixel space, watch videos together with others, share music, chat in real-time, and create a unique virtual social experience.
+🎨 AI 世界生成 - 使用 Google Gemini 生成游戏背景，支持多种艺术风格
+🎵 音乐播放器 - 支持视频播放和播放队列管理，内置环境音效库
+👤 像素化身 - 可自定义的像素头像，支持换装系统和稀有度分级
+🎮 游戏模式 - 修炼系统、抽奖、商店等多种游戏化玩法`,
+      en: `Pixel Verse Social is an innovative multiplayer online pixel art social platform supporting synchronized video watching, real-time chat, virtual world exploration, and interaction. In this 2D pixel space, watch videos together with others, share music, chat in real-time, and create a unique virtual social experience.
 
 Key Features:
-🎬 Video Sync - Real-time synchronized YouTube video watching, everyone stays in sync
+🎬 Video Sync - Supports YouTube and Bilibili video synchronized watching for everyone
 💬 Live Chat - Built-in chat room for discussions while watching videos
-👤 Pixel Avatar - Customizable pixel avatars to express yourself
-🎵 Music Sharing - Share YouTube music and listen together with friends
-🎨 Virtual Space - Immersive 2D pixel art environment for social interaction
-👥 Multiplayer - WebSocket real-time communication for smooth online interaction`,
+🎨 AI World Generation - Generate game backgrounds using Google Gemini, supports multiple art styles
+🎵 Music Player - Video playback with playlist management and ambient sound effects library
+👤 Pixel Avatar - Customizable pixel avatars with costume system and rarity tiers
+🎮 Game Modes - Cultivation system, lottery, shop, and various gamified features`,
     },
     image: '🎮',
     tags: ['React 19', 'Socket.io', 'Express', 'Node.js 22', 'Google Gemini AI', 'GCP Cloud Run'],
