@@ -12,6 +12,7 @@ interface Project {
   link: string
   color: string       // main neon color hex
   colorRgb: string    // RGB values for rgba()
+  category: 'game' | 'entertainment'
 }
 
 // ============================
@@ -77,12 +78,16 @@ const translations = {
     viewProject: '访问项目',
     close: '返回',
     techStack: '技术栈',
+    categoryGame: '游戏',
+    categoryEntertainment: '娱乐',
   },
   en: {
     subtitle: 'Explore my creative projects',
     viewProject: 'Visit Project',
     close: 'Back',
     techStack: 'Tech Stack',
+    categoryGame: 'Games',
+    categoryEntertainment: 'Entertainment',
   },
 }
 
@@ -95,24 +100,29 @@ const projects: Project[] = [
       en: 'AI-driven · Multiplayer · Infinite stories',
     },
     longDescription: {
-      zh: `让 AI 成为你的游戏主持人——由 Google Gemini 驱动的新一代多人互动 RPG。
+      zh: `让 AI 成为你的游戏主持人——由 Gemini 2.5 Flash 驱动的程序化战旗 RPG。
 
-• 🎭 AI 动态生成故事线，每局都是独一无二的冒险
-• ⚔️ 战士、法师、盗贼、牧师四大经典职业
-• 🤝 邀请好友实时同步，合力探索未知世界
-• 🎯 回合制策略战斗，搭配丰富的装备系统`,
-      en: `Let AI be your Game Master — a next-gen multiplayer RPG powered by Google Gemini.
+• 🌍 AI 生成独特世界：每局游戏都是崭新的冒险，拥有专属世界观、职业体系、敌人与装备
+• ⚔️ 深度战斗系统：回合制策略战斗，含技能冷却、状态效果（中毒/冰冻/燃烧等）、暴击闪避机制
+• 🎭 动态属性系统：每个世界拥有独特属性，如武侠世界的「内力修为」、科幻世界的「神经同步率」
+• 🤝 多人实时协作：Firebase 实时同步，邀请好友共闯地牢，支持断线重连
+• 🎯 装备词条系统：五档稀有度、随机属性加成、等级门槛要求
+• 🏰 五大预设主题：经典奇幻、东方修仙、蒸汽朋克、克苏鲁、末日废土`,
+      en: `Let AI be your Game Master — a procedural turn-based RPG powered by Gemini 2.5 Flash.
 
-• 🎭 AI dynamically generates storylines, every session is unique
-• ⚔️ Four classic classes: Warrior, Mage, Rogue, Cleric
-• 🤝 Invite friends for real-time co-op adventures
-• 🎯 Turn-based tactical combat with rich equipment system`,
+• 🌍 Procedural World Generation: Every playthrough is unique with custom lore, classes, enemies & equipment
+• ⚔️ Deep Combat System: Turn-based tactical battles with skill cooldowns, status effects (poison/freeze/burn), critical hits & evasion
+• 🎭 Dynamic Attribute System: Each world features unique stats like "Inner Cultivation" (wuxia) or "Neural Sync Rate" (sci-fi)
+• 🤝 Real-time Multiplayer: Firebase sync for seamless co-op adventures with reconnection support
+• 🎯 Equipment Affix System: 5 rarity tiers, random stat bonuses, and level requirements
+• 🏰 5 Preset Themes: Classic Fantasy, Eastern Cultivation, Steampunk, Lovecraftian, Post-Apocalyptic`,
     },
     icon: <IconDice color="#34d399" />,
     tags: ['React', 'Gemini AI', 'Firebase'],
     link: 'https://gen-rpg-game.web.app',
     color: '#34d399',
     colorRgb: '52, 211, 153',
+    category: 'game',
   },
   {
     id: 2,
@@ -122,24 +132,29 @@ const projects: Project[] = [
       en: 'Weave tales · TRPG dice · Bilingual',
     },
     longDescription: {
-      zh: `每个人都是故事的共同作者——AI 编织沉浸式叙事的多人故事引擎。
+      zh: `让 AI 成为你的游戏主持人——多人协作的沉浸式叙事引擎。
 
-• ✍️ AI 实时生成角色与剧情，玩家选择影响走向
-• 🎲 TRPG 骰子机制决定命运，充满不确定性的乐趣
-• 🌏 中英双语无缝切换，跨语言的故事体验
-• 📜 动态角色卡片系统，记录每个角色的成长`,
-      en: `Everyone co-authors the story — an AI-powered multiplayer narrative engine.
+• 🎭 AI Game Master：Gemini 驱动的智能叙事，实时生成角色、剧情与场景图片
+• 🎲 TRPG 骰子机制：D20 技能检定，难度等级 5-20，充满不确定性
+• 🎨 17 种故事风格：现代都市、武侠修仙、科幻末日等 3 大类别
+• 🤖 AI 托管系统：断线自动接管，游戏永不中断
+• 📊 玩家评价：游戏结束时 AI 评估角色扮演还原度、创造力和贡献
+• 🖼️ 电影级场景：AI 生成 16:9 场景画面，仅在剧情转折时触发`,
+      en: `Let AI be your Game Master — a collaborative immersive storytelling engine.
 
-• ✍️ AI generates characters & plots in real-time, player choices shape the story
-• 🎲 TRPG dice mechanics add thrilling uncertainty
-• 🌏 Seamless Chinese/English bilingual experience
-• 📜 Dynamic character card system tracking each character's growth`,
+• 🎭 AI Game Master: Gemini-powered intelligent narration, real-time character, plot & scene image generation
+• 🎲 TRPG Dice Mechanics: D20 skill checks with DC 5-20, full of uncertainty
+• 🎨 17 Story Styles: Modern city, wuxia cultivation, sci-fi wasteland across 3 categories
+• 🤖 AI Takeover: Auto-pilot when disconnected, game never stops
+• 📊 Player Evaluation: AI rates roleplay fidelity, creativity & contribution at game end
+• 🖼️ Cinematic Scenes: AI generates 16:9 scene images, triggered only at plot twists`,
     },
     icon: <IconQuill color="#fbbf24" />,
     tags: ['React', 'Gemini AI', 'Firebase'],
     link: 'https://story-weaver-proj.web.app',
     color: '#fbbf24',
     colorRgb: '251, 191, 36',
+    category: 'game',
   },
   {
     id: 3,
@@ -149,24 +164,27 @@ const projects: Project[] = [
       en: 'Stealth mode · 12+ feeds · AI translate',
     },
     longDescription: {
-      zh: `老板来了？一键变身代码编辑器——专为职场人设计的隐秘阅读器。
+      zh: `老板来了？按 B 键一键变身终端——专为职场摸鱼设计的隐秘阅读器。
 
-• 🕶️ "Boss 模式" 瞬间伪装成 VS Code 界面
-• 📡 聚合 12+ 热门技术资讯源，一站式刷新闻
-• 🤖 Gemini AI 智能翻译，英文文章秒变中文
-• 🎮 游戏化经验值系统——阅读也能升级打怪`,
-      en: `Boss approaching? One-click disguise as a code editor — the stealth reader for professionals.
+• 🕶️ Boss 模式：按 B 键瞬间切换为仿真终端界面，显示滚动编译日志
+• 📡 多源聚合：中文科技媒体（CnBeta/IT之家/爱范儿等）+ 国际突发新闻（BBC/Guardian/NPR）
+• 🤖 渐进式翻译：Gemini AI 智能翻译，先显示标题和前几段，再逐步翻译全文
+• 🎮 游戏化系统：10 级摸鱼称号，从「摸鱼实习生」到「宇宙级摸鱼大帝」
+• 👥 实时社交：查看在线摸鱼人数和其他用户的阅读动态`,
+      en: `Boss coming? Press B to instantly transform into a terminal — the stealth reader for office slackers.
 
-• 🕶️ "Boss Mode" instantly transforms into VS Code interface
-• 📡 Aggregates 12+ popular tech news sources in one place
-• 🤖 Gemini AI smart translation, English articles instantly readable
-• 🎮 Gamified XP system — level up while you read`,
+• 🕶️ Boss Mode: Press B to switch to a realistic terminal interface with scrolling build logs
+• 📡 Multi-source Aggregation: Chinese tech media (CnBeta/IT Home/iFanr) + Breaking news (BBC/Guardian/NPR)
+• 🤖 Progressive Translation: Gemini AI smart translation — shows title & first paragraphs first, then progressively translates the rest
+• 🎮 Gamification: 10-level slacker titles, from "Slacking Intern" to "Cosmic Slacking Emperor"
+• 👥 Real-time Social: See online users and their reading activities`,
     },
     icon: <IconTerminal color="#22d3ee" />,
     tags: ['React', 'Gemini AI', 'Firebase'],
     link: 'https://reader.momoyu.lol',
     color: '#22d3ee',
     colorRgb: '34, 211, 238',
+    category: 'entertainment',
   },
   {
     id: 4,
@@ -176,24 +194,29 @@ const projects: Project[] = [
       en: 'Pixel world · Video sync · Social',
     },
     longDescription: {
-      zh: `在像素世界里和朋友一起看视频、聊天、冒险。
+      zh: `在 AI 生成的像素世界里和朋友一起看视频、聊天、修仙。
 
-• 🎬 YouTube 视频同步观看，一起追番追剧
-• 💬 实时聊天系统，随时和房间里的人互动
-• 🎨 AI 生成独特的像素场景与背景
-• 👾 自定义像素化身，打造你的虚拟形象`,
-      en: `Watch videos, chat, and explore together in a pixel world.
+• 🎨 AI 像素世界：用自然语言描述场景，Gemini 2.5 Flash 实时生成俯视像素地图
+• 🎬 多平台视频同步：支持 YouTube 和 Bilibili，Socket.io 实现毫秒级播放同步
+• 💬 实时聊天：全局聊天室 + 头顶气泡，消息 4 秒自动消失
+• ⚡ 修仙社交：玩家靠近自动获得修炼加成，从「凡人」修炼到「化神」
+• 👾 化身装备：商店购买帽子/上衣/裤子，稀有度分普通/稀有/传奇三档
+• 🖼️ 8 种艺术风格：SNES 16-bit、GBA 32-bit、HD-2D、水彩、动漫、写实、哥特、Q版`,
+      en: `Watch videos, chat, and cultivate together in AI-generated pixel worlds.
 
-• 🎬 YouTube video sync — watch anime & shows together
-• 💬 Real-time chat to interact with everyone in the room
-• 🎨 AI generates unique pixel scenes and backgrounds
-• 👾 Customize your pixel avatar and build your virtual identity`,
+• 🎨 AI Pixel World: Describe scenes in natural language, Gemini 2.5 Flash generates top-down pixel maps in real-time
+• 🎬 Multi-platform Video Sync: YouTube + Bilibili support, millisecond-level sync via Socket.io
+• 💬 Real-time Chat: Global chatroom + overhead bubbles, messages auto-dismiss after 4 seconds
+• ⚡ Cultivation Social: Players near each other gain cultivation bonuses, progress from "Mortal" to "Divinity"
+• 👾 Avatar Equipment: Shop for hats/tops/pants with Common/Rare/Legendary rarity tiers
+• 🖼️ 8 Art Styles: SNES 16-bit, GBA 32-bit, HD-2D, Watercolor, Anime, Realistic, Gothic, Chibi`,
     },
     icon: <IconPixelGrid color="#a78bfa" />,
     tags: ['React', 'Socket.io', 'GCP'],
     link: 'https://pixel-verse.momoyu.lol',
     color: '#a78bfa',
     colorRgb: '167, 139, 250',
+    category: 'entertainment',
   },
 ]
 
@@ -763,17 +786,45 @@ function App() {
             </p>
           </div>
 
-          {/* Cards */}
-          <div className="grid grid-cols-2 gap-3">
-            {projects.map((project, index) => (
-              <TiltCard
-                key={project.id}
-                project={project}
-                language={language}
-                onClick={() => setSelectedProject(project)}
-                index={index}
-              />
-            ))}
+          {/* Cards Grouped by Category */}
+          <div className="flex flex-col gap-8">
+            {/* Entertainment Category */}
+            <div>
+              <h2 className="text-xl font-bold tracking-widest text-white mb-4 flex items-center gap-3" style={{ animation: 'fade-in 0.8s ease-out 0.4s both' }}>
+                <span className="w-1.5 h-5 bg-[#22d3ee] rounded-full inline-block" />
+                {t.categoryEntertainment}
+              </h2>
+              <div className="grid grid-cols-2 gap-3">
+                {projects.filter(p => p.category === 'entertainment').map((project, index) => (
+                  <TiltCard
+                    key={project.id}
+                    project={project}
+                    language={language}
+                    onClick={() => setSelectedProject(project)}
+                    index={index}
+                  />
+                ))}
+              </div>
+            </div>
+
+            {/* Games Category */}
+            <div>
+              <h2 className="text-xl font-bold tracking-widest text-white mb-4 flex items-center gap-3" style={{ animation: 'fade-in 0.8s ease-out 0.6s both' }}>
+                <span className="w-1.5 h-5 bg-[#34d399] rounded-full inline-block" />
+                {t.categoryGame}
+              </h2>
+              <div className="grid grid-cols-2 gap-3">
+                {projects.filter(p => p.category === 'game').map((project, index) => (
+                  <TiltCard
+                    key={project.id}
+                    project={project}
+                    language={language}
+                    onClick={() => setSelectedProject(project)}
+                    index={index}
+                  />
+                ))}
+              </div>
+            </div>
           </div>
 
           {/* Mobile signature */}
